@@ -1,0 +1,16 @@
+.main_header_div {
+  height: inherit;
+  width: inherit;
+
+  .main_inside_div {
+    height: inherit;
+    width: inherit;
+  }
+}
+
+.table_div {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+}
