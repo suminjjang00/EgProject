@@ -1,0 +1,42 @@
+@import "./header_";
+@import "./headerFolder/header_tb1";
+@import "./headerFolder/header_tb2";
+@import "./navFolder/nav_";
+
+article {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  @extend .border;
+}
+
+header {
+  @extend .border;
+  margin-top: 8px;
+  top: 0;
+  position: relative;
+  width: 100%;
+  height: 120px;
+
+}
+
+.border {
+  border: 1px solid black;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  display: block;
+  font-size: 14px;
+}
+
+body {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0px 48px;
+  position: relative;
+}
