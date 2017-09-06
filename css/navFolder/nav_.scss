@@ -1,0 +1,45 @@
+.nav_wrap {
+  width: 100%;
+  height: 100%;
+
+  .nav_table_wrap {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+    .nav_table_cell_1 {
+      display: table-cell;
+      width: 30%;
+
+      .nav_link_wrap_1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0px 10px;
+
+      }
+    }
+    .nav_table_cell_2 {
+      display: table-cell;
+      width: 40%;
+
+      .nav_link_wrap_2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0px 10px;
+
+      }
+    }
+
+    .nav_table_cell_3 {
+      display: table-cell;
+
+      .nav_link_wrap_3 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 10px;
+      }
+    }
+  }
+}

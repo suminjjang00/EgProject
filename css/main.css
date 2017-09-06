@@ -17,34 +17,38 @@
   .table_row_1 .table_row_table {
     vertical-align: middle;
     display: table;
-    height: 100%;
+    height: inherit;
     width: 100%; }
     .table_row_1 .table_row_table .table_table_cell_1 {
       text-align: center;
       display: table-cell;
       width: 13%; }
       .table_row_1 .table_row_table .table_table_cell_1 .table_contents_wrap_1 {
+        height: 100%;
         display: block;
-        padding: 0px auto; }
+        padding: 0px 10px; }
         .table_row_1 .table_row_table .table_table_cell_1 .table_contents_wrap_1 span {
           display: inline-block;
-          padding: auto 0px; }
+          padding: 5px 0px; }
     .table_row_1 .table_row_table .table_table_cell_2 {
+      text-align: center;
       display: table-cell;
       width: 17%; }
       .table_row_1 .table_row_table .table_table_cell_2 .table_contents_wrap_2 {
+        height: 100%;
         display: block;
-        padding: 0px auto; }
+        padding: 0px 10px; }
         .table_row_1 .table_row_table .table_table_cell_2 .table_contents_wrap_2 span {
           display: inline-block;
-          padding: auto 0px; }
+          padding: 5px 0px; }
     .table_row_1 .table_row_table .table_table_cell_3 {
-      text-align: right;
+      text-align: left;
       display: table-cell; }
       .table_row_1 .table_row_table .table_table_cell_3 .table_contents_wrap_3 {
+        height: 100%;
         display: block;
         padding: 0px auto; }
-        .table_row_1 .table_row_table .table_table_cell_3 .table_contents_wrap_3 input {
+        .table_row_1 .table_row_table .table_table_cell_3 .table_contents_wrap_3 input#loginBtn {
           display: inline-block;
           padding: auto 0px; }
 
@@ -61,7 +65,7 @@
       width: 30%; }
       .table_row_2 .table_row_table_2 .table_table_cell_header .header_image_wrap {
         padding: 0px auto; }
-        .table_row_2 .table_row_table_2 .table_table_cell_header .header_image_wrap #img_logo {
+        .table_row_2 .table_row_table_2 .table_table_cell_header .header_image_wrap img#img_logo {
           width: 100px;
           height: 66px; }
     .table_row_2 .table_row_table_2 .table_table_cell_subject {
@@ -71,7 +75,7 @@
       width: 40%; }
       .table_row_2 .table_row_table_2 .table_table_cell_subject .header_subject_wrap {
         padding: auto 0px; }
-        .table_row_2 .table_row_table_2 .table_table_cell_subject .header_subject_wrap #subject {
+        .table_row_2 .table_row_table_2 .table_table_cell_subject .header_subject_wrap span#subject {
           padding: 0px auto;
           font-size: 40px; }
     .table_row_2 .table_row_table_2 .table_table_cell_describ {
@@ -80,17 +84,57 @@
       text-align: right; }
       .table_row_2 .table_row_table_2 .table_table_cell_describ .header_discrib_wrap {
         padding: 0px auto; }
-        .table_row_2 .table_row_table_2 .table_table_cell_describ .header_discrib_wrap #describ {
+        .table_row_2 .table_row_table_2 .table_table_cell_describ .header_discrib_wrap span#describ {
           padding: auto 0px; }
+
+.nav_wrap {
+  width: 100%;
+  height: 100%; }
+  .nav_wrap .nav_table_wrap {
+    width: 100%;
+    height: 100%;
+    display: table; }
+    .nav_wrap .nav_table_wrap .nav_table_cell_1 {
+      display: table-cell;
+      width: 30%; }
+      .nav_wrap .nav_table_wrap .nav_table_cell_1 .nav_link_wrap_1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0px 10px; }
+    .nav_wrap .nav_table_wrap .nav_table_cell_2 {
+      display: table-cell;
+      width: 40%; }
+      .nav_wrap .nav_table_wrap .nav_table_cell_2 .nav_link_wrap_2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0px 10px; }
+    .nav_wrap .nav_table_wrap .nav_table_cell_3 {
+      display: table-cell; }
+      .nav_wrap .nav_table_wrap .nav_table_cell_3 .nav_link_wrap_3 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 10px; }
+
+nav {
+  margin: 10px 0px;
+  width: 100%;
+  height: 25px; }
+
+article {
+  width: 100%;
+  height: 100%;
+  position: relative; }
 
 header {
   margin-top: 8px;
   top: 0;
   position: relative;
   width: 100%;
-  height: 120px; }
+  height: 100px; }
 
-.border, nav, .nav, header {
+.border, nav, article, header {
   border: 1px solid black; }
 
 div {

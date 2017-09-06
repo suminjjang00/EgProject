@@ -15,7 +15,7 @@
       .header_image_wrap {
         padding: 0px auto;
 
-        #img_logo {
+        img#img_logo {
           width: 100px;
           height: 66px;
         }
@@ -30,7 +30,7 @@
       .header_subject_wrap {
         padding: auto 0px;
 
-        #subject {
+        span#subject {
           padding: 0px auto;
           font-size: 40px;
 
@@ -45,7 +45,7 @@
       .header_discrib_wrap {
         padding: 0px auto;
 
-        #describ{
+        span#describ{
           padding: auto 0px;
         }
       }

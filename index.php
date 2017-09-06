@@ -28,7 +28,7 @@
                 </div>
                 <div class="header table_table_cell_3">
                   <div class="header table_contents_wrap_3">
-                    <input type="button" name="login" value="Login">
+                    <input type="button" name="login" value="Login" id='loginBtn'>
                   </div>
                 </div>
 
@@ -64,28 +64,30 @@
 
     </header>
     <nav>
-      <div class="nav nav_wrap">
-        <div class="nav nav_table_wrap">
-          <div class="nav nav_table_cell_1">
-            <div class="nav nav_link_wrap_1">
-              <a href="#">contents</a>
+      <div class="navi nav_wrap">
+        <div class="navi nav_table_wrap">
+          <div class="navi nav_table_cell_1">
+            <div class="navi nav_link_wrap_1">
+              <a href="./FormVali_Login.php">Login</a>
             </div>
           </div>
-          <div class="nav nav_table_cell2">
-            <div class="nav nav_link_wrap_2">
-              <a href="#">link #2</a>
+          <div class="navi nav_table_cell_2">
+            <div class="navi nav_link_wrap_2">
+              <a href="./FormVali_adddb.php">add Db</a>
             </div>
           </div>
-          <div class="nav nav_table-cell3">
-            <div class="nav nav_cell_wrap_1">
-              <a href="#">link #3</a>
+          <div class="navi nav_table_cell_3">
+            <div class="navi nav_link_wrap_3">
+              <a href="./FormVali_order.php">order</a>
             </div>
           </div>
         </div>
       </div>
     </nav>
     <article class="">
+      <div class="contents">
 
+      </div>
     </article>
   </body>
 </html>

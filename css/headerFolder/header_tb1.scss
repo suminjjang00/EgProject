@@ -5,7 +5,7 @@
     .table_row_table {
       vertical-align: middle;
       display: table;
-      height: 100%;
+      height: inherit;
       width: 100%;
 
       .table_table_cell_1 {
@@ -14,38 +14,42 @@
         width: 13%;
 
         .table_contents_wrap_1 {
+          height: 100%;
           display: block;
-          padding: 0px auto;
+          padding: 0px 10px;
 
           span {
             display: inline-block;
-            padding: auto 0px;
+            padding: 5px 0px;
           }
         }
       }
       .table_table_cell_2 {
+        text-align: center;
         display: table-cell;
         width: 17%;
 
         .table_contents_wrap_2 {
+          height: 100%;
           display: block;
-          padding: 0px auto;
+          padding: 0px 10px;
 
           span {
             display: inline-block;
-            padding: auto 0px;
+            padding: 5px 0px;
           }
         }
       }
       .table_table_cell_3 {
-        text-align: right;
+        text-align: left;
         display: table-cell;
 
         .table_contents_wrap_3 {
+          height: 100%;
           display: block;
           padding: 0px auto;
 
-          input {
+          input#loginBtn {
             display: inline-block;
             padding: auto 0px;
           }
