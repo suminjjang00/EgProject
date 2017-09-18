@@ -14,9 +14,6 @@ abstract class Abstract_class {
   //     $this ->values = $values;
   //   }
   // }
-  public function TestMethod(){
-    echo "Test";
-  }
   public function input($type,$attributes=array(),$isMultiple=false){
     $attributes['type'] = $type;
     if(($type === 'radio') || ($type === 'checkbox')){

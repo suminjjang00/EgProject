@@ -32,7 +32,6 @@ require "./FormHelper.php";
       }
       return $html;
     }
-
     function show_form($arrays){
       foreach($arrays as $value){
         print $value."</br>";

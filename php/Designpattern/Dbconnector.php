@@ -21,7 +21,6 @@ final class Singleton{
     $this->db = new \PDO('mysql:host=localhost; dbname=phptest',
       'root',
       'a12345678');
-
       $this->db->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_WARNING);
       $this->db->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE,\PDO::FETCH_OBJ);
 
